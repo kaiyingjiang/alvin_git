@@ -10,3 +10,8 @@ git commit -m "say something meaningful here"
 git push
 ```
 3. check status using `git status`
+
+## Branch
+1. Create branch using `git checkout -b <branch_name>`
+2. Switch to branch using `git checkout <branch_name>`
+3. General update: `git fetch`   NOTE: `git pull` = `git fetch` + `git pull origin <current_branch_name>`
